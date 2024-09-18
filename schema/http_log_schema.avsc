@@ -1,0 +1,26 @@
+{
+  "type": "record",
+  "name": "HttpLog",
+  "fields": [
+    {
+      "name": "timestamp",
+      "type": "timestamp",
+      "doc": "ISO 8601 formatted timestamp of the HTTP request"
+    },
+    {
+      "name": "http_method",
+      "type": "string",
+      "doc": "HTTP method (GET, POST, etc.)"
+    },
+    {
+      "name": "http_path",
+      "type": "string",
+      "doc": "HTTP request path"
+    },
+    {
+      "name": "user_id",
+      "type": "string",
+      "doc": "User identifier"
+    }
+  ]
+}
